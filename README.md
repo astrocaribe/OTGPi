@@ -1,8 +1,13 @@
 # OTGPi
 This gets you an quick way to setup a Raspberry Pi OTG (On The Go) with minimal effort.
 
-It will set ssh for you, refresh ssh keys for the default `pi@raspberrypi.local` user,
-and set up WiFi for you, if you wish (just follow the prompt when you run the tool).
+It will set ssh for you, remove ssh keys for the default `pi@raspberrypi.local` user
+from `known_hosts` file, and set up WiFi for you, if you wish (just follow the prompt
+when you run the tool).
+
+## Compatibility
+Tested so far on the following Pi versions:
+- Pi Zero W V1.1
 
 ## Under Construction
 More to come, with guiding images!
