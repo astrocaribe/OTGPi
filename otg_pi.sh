@@ -34,7 +34,8 @@ function add_wifi() {
     echo "SSID $1 will be applied to WiFi setup..."
 
     cat wpa_supplicant.conf | sed "s/<ssid>/$1/" | sed "s/<psk>/$2/" > /Volumes/boot/wpa_supplicant.conf
-    echo "Wifi setup conplete."
+    echo "Wifi setup complete."
+    echo
 }
 
 # Reset ssh connection to raspberrypi.local
