@@ -50,7 +50,7 @@ More to come, with guiding images!
     ```
 8. Once logged in again, update/upgrade Raspbian using this one-liner:
    ```bash
-   $> sudo apt update; sudo apt full-upgrade`
+   $> sudo apt update; sudo apt full-upgrade
    ```
 
 
